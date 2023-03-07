@@ -33,7 +33,7 @@ function goback(){
     localStorage.clear();
     gameInput.value='';
     wordSpan.innerText='';
-    currentOrder = 1; 
+    location.reload();
 }
 
 gameBtn.addEventListener("submit",submission);
@@ -45,15 +45,17 @@ function submission(event){
 
 function integrityCheck(){
     newWord=gameInput.value;
-    if(((!word)||(word[3] || newWord[1]))&& newWord.length === 3) {
+    if(((!word)||word[2] == newWord[0])&& newWord.length === 3) {
         word=newWord
         wordSpan.innerText = word;
         changeOrder();
         gameInput.value='';
     }
-    else {
+   
+    else{
         alert("븅신ㅋㅋ");
         wordSpan.innerText= "븅신 ㅋㅋ";
+        
     }
     
     }
