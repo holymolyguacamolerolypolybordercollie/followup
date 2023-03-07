@@ -1,0 +1,128 @@
+@import "../../kokoa-clone-2020/css/reset.css";
+
+.header{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    font-size: 55px;
+    padding-top:20% ;
+    font-weight:800;
+}
+
+.howmanypeople{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    font-size:28px;
+    padding: 30px 20px;
+    align-items:center;
+}
+
+.howmanypeople h2{
+    display:flex;
+    margin-right:20px;
+    
+}
+
+.howmanypeople select{
+    padding: 12px 20px;
+    font-size:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+   
+}
+
+.order{
+    font-size:28px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 50px 20px;
+    font-weight:700;
+}
+
+.currentWord{
+    display:block;
+    font-size:50px;
+    font-weight:800;
+    margin-top:15px;
+}
+
+.game-word{
+    font-size:36px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 50px 20px;
+}
+
+
+.game-input{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    
+}
+
+
+.game-input input[type="text"]{
+    padding: 15px 40px;
+    text-align:center;
+    margin-bottom:13px;
+    font-size:26px;
+    width:34%;
+
+
+}
+
+.game-input input[type="text"]:focus{
+   border: 2px solid rgba(16, 210, 197, 0.7);
+   outline:none;
+}
+
+
+.game-input input[type="submit"]{
+  padding:15px 40px;
+  width:28%;
+  font-size:26px;
+}
+
+.wrapper-start{
+  display:flex;
+  justify-content:center;
+  padding-bottom:250px;
+  border-bottom: 2px solid rgba(83,83,83,0.7);
+}
+
+.start{
+    padding:15px 40px;
+    width:28%;
+    font-size:26px;
+
+}
+
+.hidden{
+    display:none;
+}
+
+footer{
+    display:flex;
+    justify-content:center;
+    margin-top:130px;
+}
+
+.goBack{
+    position:absolute;
+    left:50px;
+    top:50px;
+    font-size:30px;
+    padding:5px;
+
+
+}
